@@ -1,0 +1,25 @@
+
+train: /content/images/train
+val: /content/images/valid
+#test: ../coco/images/test2017
+anno_path: ../coco/annotations/instances_val2017.json
+# number of classes
+nc: 18
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+
+# class names
+names: [ 'Broken Footpath', 'Broken Signboard',' Building Number',' Construction Material',' Electric Meter',' Garbage Container',
+  'Garbage Dump',
+ 'Garbage Scattered',
+ 'Manhole',
+  'Old structure',
+   'Pole Notice',
+  'Road Pothole',
+  'Signboard',
+  'Street Names',
+  'Wall Notice',
+  'Wall Writing',
+  'Water Meter',
+  'Water spill']
+ 
